@@ -1,0 +1,25 @@
+{
+  "name": "docker-whale-portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gsap": "^3.13.0",
+    "three": "^0.186.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.186.0",
+    "autoprefixer": "^10.4.21",
+    "lil-gui": "^0.21.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.9.0",
+    "vite": "^7.3.0",
+    "vite-plugin-glsl": "^1.6.1"
+  }
+}

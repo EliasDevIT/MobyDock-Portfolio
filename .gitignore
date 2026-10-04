@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+.vite/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Code graphs (regenerated locally)
+.gitnexus/
+graphify-out/
+.graphify_*
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# OS / editor
+Thumbs.db
+.DS_Store
+*.log
+
+# Sauvegardes automatiques de Blender
+*.blend1
+
+# Ancien cahier des charges (version nuit), gardé en local
